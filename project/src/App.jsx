@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Homepage from "./component/Homepage";
 import NotFound from './component/NotFound'; // Component for 404 page
 import { UserProvider } from './component/UserContext'; // Import UserProvider
